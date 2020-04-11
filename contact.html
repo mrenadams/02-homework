@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Page Title</title>
-<link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600&display=swap" rel="stylesheet">
-
 </head>
-<body style="background-color: #d7dbdb; #d7dbdb">
+
+<!-- Header w Name -->
+
+<body style="background-color: #d7dbdb;">
     <header>
         <h1 class="text-center text-info m-0 p-3" style="font-family: 'Baloo Paaji 2', cursive; background-color: white;">Marissa Adams</h1>
+        <!-- Nav Bar Begins -->
+        <nav class="navbar navbar-dark navbar-expand bg-info" style="font-family: 'Baloo Paaji 2', cursive;">
+            <div>
+              <ul class="nav navbar-nav font-weight-bold">
+                <li>
+                  <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li>
+                    <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
     </header>
 
-  <nav class="navbar sticky-top navbar-dark navbar-expand bg-info" style="font-family: 'Baloo Paaji 2', cursive;">
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav font-weight-bold">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-          </li>
-      </ul>
-    </div>
-  </nav>
+
+
+  
+
+<!-- Contact Form Here -->
 
     <div class="container">
         <div class="row">
-          <div class="col-sm-4">
-          </div>
-          <div class="col-sm-4 border border-dark m-3 p-3">
+          <div class="col-md-12 border border-dark m-3 p-3">
             <form>
             <h2  style="font-family: 'Baloo Paaji 2', cursive;">Contact Me</h2>
             <hr>
@@ -55,8 +58,6 @@
             </div>
             <button type="submit" class="btn btn-info">Submit</button>
           </form>
-          </div>
-          <div class="col-sm">
           </div>
         </div>
       </div>
